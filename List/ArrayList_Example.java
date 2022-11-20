@@ -11,27 +11,27 @@ public class ArrayList_Example {
 		//ArrayList maintains insertion order FIFO/LILO
 		//ArrayList may contains n no. of null values.
 		//ArrayList maintains index.
-		ArrayList<Object> h = new ArrayList<>();
-		h.add("miller");
-		h.add("john");
-		h.add(32);
-		h.add(false);
-		h.add('c');
-		h.add(null);
-		System.out.println(h);
+		ArrayList<Object> arraylist = new ArrayList<>();
+		arraylist.add("miller");
+		arraylist.add("john");
+		arraylist.add(32);
+		arraylist.add(false);
+		arraylist.add('c');
+		arraylist.add(null);
+		System.out.println(arraylist);
 		// 4 ways to access an object
 		// 1.iterator
-//		Iterator i = h.iterator();
+//		Iterator i = arraylist.iterator();
 //		while (i.hasNext()) {
 //			System.out.println(i.next());
 //		}
 		System.out.println("------------");
 		// 2.for each
-		for (Object object : h) {
+		for (Object object : arraylist) {
 			System.out.println(object);
 		}
 		// 3.listIterator
-		ListIterator<Object> li = h.listIterator();
+		ListIterator<Object> li = arraylist.listIterator();
 		System.out.println("forword direction");
 		while(li.hasNext())
 		{

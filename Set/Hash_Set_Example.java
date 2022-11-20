@@ -25,7 +25,7 @@ public class Hash_Set_Example {
 		System.out.println("------------");
 		//2.for each
 		for (Object object : h) {
-			System.out.println(h);
+			System.out.println(object);
 		}
 	}
 }

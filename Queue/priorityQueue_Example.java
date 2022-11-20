@@ -2,7 +2,7 @@ package org.jsp.collection.queue;
 
 import java.util.PriorityQueue;
 
-public class priorityQueue_Example {
+public class PriorityQueue_Example {
 	
 	public static void main(String[] args) {
 		//Queue allows homogeneous type of object

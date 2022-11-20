@@ -6,8 +6,8 @@ import java.util.Iterator;
 public class LinkedHashSet_Example {
 
 	public static void main(String[] args) {
-		// Hash set maintains insertion order
-		// Hash set allows heterogeneous object
+		// LinkedHash set maintains insertion order
+		// LinkedHash set allows heterogeneous object
 		// One null objects are allowed
 		LinkedHashSet<Object> h = new LinkedHashSet<>();
 		h.add("miller");

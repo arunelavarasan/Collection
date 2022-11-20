@@ -6,8 +6,8 @@ import java.util.TreeSet;
 public class TreeSet_Example {
 
 	public static void main(String[] args) {
-		// Hash set maintains insertion order
-		// Hash set allows only homogeneous object
+		// Tree set maintains insertion order
+		// Tree set allows only homogeneous object
 		// null objects are not allowed
 		TreeSet<Object> h = new TreeSet<>();
 		h.add("miller");
